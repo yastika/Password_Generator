@@ -1,0 +1,241 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    /* left: 62px;
+    top: 64px; */
+    background: #1F2937;
+}
+i{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 900;    
+}
+
+.heading1{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+}
+
+.white-heading{
+    color: #FFFFFF; 
+}
+
+.green-heading{
+    color: #10B981;
+}
+
+.description{
+    /* Supporting text */
+
+
+position: absolute;
+width: 372px;
+height: 28px;
+left: 52px;
+top: 208px;
+
+/* text-xl/leading-7/font-normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Medium grey */
+
+color: #D5D4D8;
+}
+
+.genPassword{
+        /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 287px;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border-color: #10B981;
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+
+.fa-bolt{
+        /* Lightning bolt */
+
+
+    position: static;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    top: 11px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+
+#separation-line{
+    /* Line 17 */
+
+
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 364px;
+
+    border: 1px solid #2F3E53;
+}
+
+.genButton{
+        /* Rectangle 98 */
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+}
+
+#option1{
+    /* Rectangle 95 */
+
+
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 399px;
+}
+
+#option2{
+        /* Rectangle 96 */
+
+
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 399px;
+}
+
+#option3{
+    /* Rectangle 97 */
+
+
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 465px;
+}
+
+#option4{
+    /* Rectangle 98 */
+
+
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 465px;
+
+}
+
+button:hover, button:focus {
+  outline: none;
+}
+
+.password{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #55F991;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
